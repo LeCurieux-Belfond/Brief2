@@ -1,0 +1,148 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+/* Premiere section */
+
+.entete a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border: transparent
+}
+
+.entete p{
+    font-size: 2em;
+    padding: 0 0 0 250px;
+    font-weight: bolder;
+}
+
+.entete nav{
+    padding: 0 250px 0 0;
+}
+
+.entete span{
+    color:#FFDE28;
+    font-size: 1.4em;
+}
+
+.banniere{
+    background: url("assets_maquette/banner_bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    
+}
+
+.banniere
+.entete{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.navigation{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 245px 60px 245px 0;
+    font-size: 1em;
+    
+}
+
+.centre #tinker{
+    color: #FFB428;
+}
+
+.centre #html5{
+    color: #46E7DB;
+}
+
+.centre #template{
+    color: white;
+}
+
+.centre p{
+    color: white;
+    padding: 0;
+    
+}
+
+.centre a{
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-size: 0.8em;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 550;
+}
+
+
+
+
+
+/* Deuxième section */
+
+.division{
+    background: url("assets_maquette/about-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+    
+.logo{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.logo img{
+    border-radius: 50px;
+    padding:20px;
+    background-color: #FED467;
+    border:solid white 3px;
+    width: 3em;
+    height: 3em;
+}
+
+.trio{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px white;
+}
+
+.trio h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.sous-division{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5%;
+    color: white;
+}
+
